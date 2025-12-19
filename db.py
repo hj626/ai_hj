@@ -7,8 +7,7 @@ class Database:
         try:
             self.connection = pymysql.connect(
                 host='mariadb',
-                port=31434,
-                # 클라우드 연결시에는 클라우드 DB 정보로 입력해야해
+                port=3306,
                 
                 database='test',  # test 데이터베이스 사용
                 user='root',
