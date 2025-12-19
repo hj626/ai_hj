@@ -6,7 +6,7 @@ class Database:
         self.connection = None
         try:
             self.connection = pymysql.connect(
-                host='localhost',
+                host='svc.sel5.cloudtype.app',
                 port=3306,
                 # host='svc.sel5.cloudtype.app',
                 # port=31484,
