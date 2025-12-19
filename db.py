@@ -6,7 +6,7 @@ class Database:
         self.connection = None
         try:
             self.connection = pymysql.connect(
-                host='mariadb',
+                host='localhost',
                 port=3306,
                 # host='svc.sel5.cloudtype.app',
                 # port=31484,
