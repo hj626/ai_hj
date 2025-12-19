@@ -6,7 +6,7 @@ class Database:
         self.connection = None
         try:
             self.connection = pymysql.connect(
-                host='svc.sel5.cloudtype.app',
+                host='mariadb',
                 port=31434,
                 # 클라우드 연결시에는 클라우드 DB 정보로 입력해야해
                 
